@@ -253,7 +253,7 @@ Template:
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -605,7 +605,7 @@ $ padrino rake db:seed
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
