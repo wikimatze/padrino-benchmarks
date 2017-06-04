@@ -1,0 +1,9 @@
+---
+:orm: none
+:test: none
+:mock: none
+:script: none
+:renderer: liquid
+:stylesheet: none
+:namespace: LiquidApp
+:migration_format: number
