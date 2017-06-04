@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+BENCHMARK_THREADS=1
+BENCHMARK_DURATION=10
+BENCHMARK_CONNECTIONS=1
+
+RENDERER=( "erb-app" "liquid-app" "haml-app" "slim-app" )
+ORMS=( "activerecord-app" "couchrest-app" "mongoid-app" "ohm-app" "sequel-app" )
+
+function run_app() {
+  rackup > /dev/null 2>&1 &
+}
+
+function run_bench() {
+  wrk -t$BENCHMARK_THREADS -d$BENCHMARK_DURATION -c$BENCHMARK_CONNECTIONS http://localhost:9292/
+}
+
+function kill_process_by_id() {
+  kill -9 "$1"
+}
+
+function run_benchmark() {
+  name=("$@")
+
+  for app in "${name[@]}"
+  do
+    if [ "$app" == "${!#}" ]; then
+      echo "Finished benchmarking for $app"
+      exit 0;
+    fi
+    printf "Starting with %s\n" "$app"
+    cd "${!#}/$app" || exit
+    run_app
+    pid="$(echo $!)"
+    sleep 5 # let server start up
+    benchmark=$(run_bench)
+    printf "Finished profiling %s\n" "$app"
+    printf "Results:\n"
+    printf "%s\n" "$benchmark"
+    kill_process_by_id "$pid"
+    echo "Killing process"
+    cd ../..
+  done
+}
+
+function run_benchmarks() {
+  echo "Start profiling for $1"
+
+  if [ "$1" == 'renderer' ]; then
+    run_benchmark "${RENDERER[@]}" renderer
+  elif [ "$1" == 'orms' ]; then
+    run_benchmark "${ORMS[@]}" orms
+  else
+    echo "Something went wrong"
+  fi
+}
+
+if [ -z "$1" ]; then
+  echo "Please provide an input parameter (renderer, orms)"
+  exit 1;
+fi
+
+if [ "$1" == 'renderer' ]; then
+  run_benchmarks "$1"
+  exit 0;
+elif [ "$1" == 'orms' ]; then
+  run_benchmarks "$1"
+  exit 0;
+elif [ "$1" == 'renderer' ]; then
+  echo "Start profiling for $1"
+  exit 0;
+else
+  echo "Please provide a valid input parameter (renderer, orms)"
+  exit 1;
+fi
+
