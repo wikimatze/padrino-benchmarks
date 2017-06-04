@@ -87,6 +87,9 @@ Template:
 The template may vary depending on the used render method.
 
 
+Here are the results:
+
+
 #### 1 thread, 1 connection, 10 seconds
 
 | Render        | Avg Latency   | Number of Requests | Req/Sec | Transfer/sec
@@ -150,10 +153,13 @@ end
 
 Template:
 
+
 ```erb
 <%= @post.name %> <%= @post.text %>
 ```
 
+
+Here are the results:
 
 #### 1 thread, 1 connection, 10 seconds
 
