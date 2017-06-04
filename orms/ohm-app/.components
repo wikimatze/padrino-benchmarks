@@ -1,0 +1,9 @@
+---
+:orm: ohm
+:test: none
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: none
+:namespace: OhmApp
+:migration_format: number

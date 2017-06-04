@@ -1,0 +1,9 @@
+---
+:orm: couchrest
+:test: none
+:mock: none
+:script: none
+:renderer: erb
+:stylesheet: none
+:namespace: CouchrestApp
+:migration_format: number
