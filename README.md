@@ -266,7 +266,7 @@ Transfer/sec:     20.09KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -279,7 +279,7 @@ Transfer/sec:    185.27KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -292,7 +292,7 @@ Transfer/sec:    314.36KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -315,7 +315,7 @@ Template:
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -328,7 +328,7 @@ Transfer/sec:     20.52KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -342,7 +342,7 @@ Transfer/sec:    195.23KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -355,7 +355,7 @@ Transfer/sec:    409.65KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -380,7 +380,7 @@ strong welt
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -393,7 +393,7 @@ Transfer/sec:     18.78KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -406,7 +406,7 @@ Transfer/sec:    123.90KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -419,7 +419,7 @@ Transfer/sec:    168.56KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -443,7 +443,7 @@ Template:
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -456,7 +456,7 @@ Transfer/sec:     20.39KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -469,7 +469,7 @@ Transfer/sec:    195.97KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -482,7 +482,7 @@ Transfer/sec:    318.73KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -539,7 +539,7 @@ $ padrino rake db:seed
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -552,7 +552,7 @@ Transfer/sec:     19.23KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -565,7 +565,7 @@ Transfer/sec:    168.22KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -578,7 +578,7 @@ Transfer/sec:    222.28KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -618,7 +618,7 @@ Transfer/sec:     18.30KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -631,7 +631,7 @@ Transfer/sec:    159.57KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -644,7 +644,7 @@ Transfer/sec:    186.34KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -671,7 +671,7 @@ $ padrino rake db:seed
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -684,7 +684,7 @@ Transfer/sec:     19.23KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -697,7 +697,7 @@ Transfer/sec:    170.86KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -710,7 +710,7 @@ Transfer/sec:    209.44KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -737,7 +737,7 @@ $ padrino rake db:seed
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -750,7 +750,7 @@ Transfer/sec:     19.58KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -763,7 +763,7 @@ Transfer/sec:    179.90KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -776,7 +776,7 @@ Transfer/sec:    251.01KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
@@ -802,7 +802,7 @@ $ padrino rake sq:reset
 ```
 
 
-**Results: 1 thread, 1 connection, 10 seconds**:
+**1 thread, 1 connection, 10 seconds**:
 
 
 ```sh
@@ -815,7 +815,7 @@ Transfer/sec:     19.68KB
 ```
 
 
-**Results: 1 thread, 10 connection, 10 seconds**:
+**1 thread, 10 connection, 10 seconds**:
 
 
 ```sh
@@ -828,7 +828,7 @@ Transfer/sec:    182.23KB
 ```
 
 
-**Results: 1 thread, 100 connection, 10 seconds**:
+**1 thread, 100 connection, 10 seconds**:
 
 
 ```sh
@@ -841,7 +841,7 @@ Transfer/sec:    263.19KB
 ```
 
 
-**Results: 1 thread, 10000 connection, 10 seconds**:
+**1 thread, 10000 connection, 10 seconds**:
 
 
 ```sh
